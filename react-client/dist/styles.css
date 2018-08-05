@@ -19,21 +19,33 @@ body {
 }
 
 header {
-  display: block;
-  background-color: black;
   width: 100%;
-  height: 50px;
-  color: white;
+  /*height: 80px;*/
+  color: black;
+  background: white;
+  box-shadow: -1px -2px 20px 0 #888888;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 0;
+}
+
+header .name {
+  padding-bottom: 16px;
+  font-size: 18px;
+}
+
+header .navButton {
+  margin: 0 8px;
+}
+
+header .navButton a {
+  text-decoration: none !important;
 }
 
 #headerButtons {
   list-style-type: none;
   margin: 0;
-  padding: 0;
-}
-
-.navButton {
-  float: right;
 }
 
 footer {
